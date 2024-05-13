@@ -1,12 +1,7 @@
 import React from "react";
-import FilterBtn from "../components/MicroComponents/FilterBtn";
 
 const Home = () => {
-  return (
-    <div>
-      <FilterBtn />
-    </div>
-  );
+  return <div className="h-screen bg-black text-white">Home</div>;
 };
 
 export default Home;
