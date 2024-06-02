@@ -14,9 +14,11 @@ const Header = () => {
           <p>Welcome to Test & Get the best product</p>
           <span>{currentDate}</span>
         </div>
-        <div className="font-inconsolata font-bold text-3xl px-[40px] py-5 border-b border-footer_bg/50">
-          Test<span className="text-alert_color">.</span>
-        </div>
+        <Link to="/">
+          <div className="font-inconsolata font-bold text-3xl px-[40px] py-5 border-b border-footer_bg/50">
+            Test<span className="text-alert_color">.</span>
+          </div>
+        </Link>
         <div className="">
           <ul className="px-[40px] border-b border-footer_bg/50 py-7 flex_start gap-5">
             <li>
