@@ -6,12 +6,14 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import ProductDetails from "./pages/ProductDetails";
 import ViewCart from "./pages/ViewCart";
+import UseEffect from "./components/UseEffect";
 
 const App = () => {
   return (
     <div className="overflow-x-hidden font-inter text-base bg-gray-100 text-text_color">
       <Router>
         <Header />
+        <UseEffect />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
