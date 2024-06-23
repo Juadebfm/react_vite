@@ -10,9 +10,9 @@ const Header = () => {
   return (
     <header>
       <nav className="">
-        <div className="bg-footer_bg text-white px-[40px] py-5 flex_center">
+        <div className="bg-footer_bg text-white px-[25px] lg:px-[40px] py-5 flex_center">
           <p>Welcome to Test & Get the best product</p>
-          <span>{currentDate}</span>
+          <span className="text-[11px] lg:text-base">{currentDate}</span>
         </div>
         <Link to="/">
           <div className="font-inconsolata font-bold text-3xl px-[40px] py-5 border-b border-footer_bg/50">

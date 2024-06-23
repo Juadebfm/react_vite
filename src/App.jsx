@@ -25,3 +25,12 @@ const App = () => {
 };
 
 export default App;
+
+// STEPS FOR REACT ROUTER DOM:
+// 1. npm install react-router-dom
+// 2. import BrowserRouter as Router, Routes, Route from 'react-router-dom';
+// 3. Wrap the entire app with Router
+// 4. Define routes using Route component
+// - Route as a component as 2 attributes 1. path="/my-path", 2. element={<mypage/>}
+// 5. Create a nav / header component
+// 6. Use Link component from react-router-dom to create links between pages
