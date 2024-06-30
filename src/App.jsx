@@ -13,7 +13,6 @@ const App = () => {
     <div className="overflow-x-hidden font-inter text-base bg-gray-100 text-text_color">
       <Router>
         <Header />
-        <UseEffect />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
